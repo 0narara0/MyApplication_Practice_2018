@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MyApplication_Practice_2018</string>
+    <string name="title_activity_implicit">ImplicitActivity</string>
 </resources>

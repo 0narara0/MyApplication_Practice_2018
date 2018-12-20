@@ -9,22 +9,19 @@
     android:paddingTop="16dp"
     android:paddingRight="16dp"
     android:paddingBottom="16dp"
-    tools:context=".activities.MainActivity">
+    tools:context=".activities.StartActivityForResultActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#ffff04"
-        android:text="안녕하세요"
-        android:textSize="45sp" />
 
-    <ImageView
-        android:id="@+id/imageView"
+    <EditText
+        android:id="@+id/value_edit"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="3"
-        android:scaleType="centerCrop"
-        android:src="@drawable/bts" />
+        android:layout_height="wrap_content"
+        android:hint="전달할 값" />
+
+    <Button
+        android:id="@+id/submit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전송" />
 
 </LinearLayout>

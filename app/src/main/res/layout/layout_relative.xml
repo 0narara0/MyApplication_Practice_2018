@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/hello_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:background="#3fd1dc"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/left_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/hello_text"
+        android:layout_toLeftOf="@+id/hello_text"
+        android:text="왼쪽" />
+
+    <TextView
+        android:id="@+id/right_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/hello_text"
+        android:layout_toRightOf="@+id/hello_text"
+        android:text="오른쪽" />
+
+    <TextView
+        android:id="@+id/android_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#afd45f"
+        android:text="Android" />
+
+    <TextView
+        android:id="@+id/a_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/android_text"
+        android:text="위쪽" />
+
+    <TextView
+        android:id="@+id/a_right"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toEndOf="@+id/android_text"
+        android:layout_toRightOf="@+id/android_text"
+        android:text="오른쪽" />
+
+
+    <TextView
+        android:id="@+id/world_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="#fa6b47"
+        android:text="World"
+        android:layout_alignParentRight="true" />
+
+    <TextView
+        android:id="@+id/w_above"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/world_text"
+        android:layout_alignRight="@+id/world_text"
+        android:text="위쪽" />
+
+    <TextView
+        android:id="@+id/w_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/world_text"
+        android:text="왼쪽"
+        android:layout_toLeftOf="@+id/world_text" />
+
+
+</RelativeLayout>
